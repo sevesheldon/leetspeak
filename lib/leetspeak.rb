@@ -16,6 +16,8 @@ class String
         else
           new_word.push("z")
         end
+      elsif letter == "t" || letter == "T"
+        new_word.push("7")
       else
         new_word.push(letter)
       end
